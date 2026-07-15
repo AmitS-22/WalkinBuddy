@@ -1,51 +1,65 @@
 # 🏨 WalkinBuddy
 
-**WalkinBuddy** is a Flutter-based Smart Hospitality & Safety application designed to help users discover hotels, book stays, access emergency SOS services, and navigate nearby locations using Google Maps.
+A modern **Flutter-based Smart Hospitality & Safety App** that allows users to discover hotels, make bookings, manage their profile, and use emergency SOS services through a clean and user-friendly interface.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- 🔐 Firebase Authentication
-  - Login
-  - Signup
-  - Forgot Password
+## 🔐 Authentication
 
-- 🏨 Hotel Browsing
-  - Featured Hotels
-  - Hotel Details
-  - Search Hotels
+- Login
+- Signup
+- Forgot Password
+- Firebase Authentication
 
-- 📅 Hotel Booking
+## 🏨 Hotel Management
 
-- 🗺️ Google Maps Integration
+- Browse Featured Hotels
+- Hotel Details
+- Search Hotels
+- Hotel Booking
 
-- 📍 Live Location Tracking
+## 💳 Payment
 
-- 🚨 SOS Emergency Feature
+- Multiple Payment Options
+- Booking Confirmation
 
-- 👤 User Profile
+## ⭐ Reviews
 
-- ⭐ Reviews & Ratings
+- Add Reviews
+- Ratings
 
-- 📱 Responsive Material 3 UI
+## 👤 User Profile
+
+- Edit Profile
+- Booking History
+
+## 🚨 Safety
+
+- SOS Emergency Screen
+
+## 🎨 UI
+
+- Modern Material 3 Design
+- Responsive Layout
+- Clean User Interface
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 - Flutter
 - Dart
 - Firebase Authentication
 - Cloud Firestore
 - Firebase Storage
-- Google Maps Flutter
-- Geolocator
 - Provider
+- Material 3
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 lib/
@@ -59,7 +73,6 @@ lib/
 │   ├── booking/
 │   ├── home/
 │   ├── hotel/
-│   ├── maps/
 │   ├── payment/
 │   ├── profile/
 │   ├── review/
@@ -71,7 +84,7 @@ lib/
 
 ---
 
-## 📱 Screens
+# 📱 Screens
 
 - Splash Screen
 - Login
@@ -79,42 +92,41 @@ lib/
 - Home
 - Hotel Details
 - Booking
-- Google Maps
 - Payment
-- Profile
 - Reviews
+- Profile
 - Settings
 - SOS
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
 > Screenshots will be added soon.
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-### Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/AmitS-22/WalkinBuddy.git
 ```
 
-### Go to Project Folder
+## Open Project
 
 ```bash
 cd WalkinBuddy
 ```
 
-### Install Dependencies
+## Install Packages
 
 ```bash
 flutter pub get
 ```
 
-### Run the Project
+## Run App
 
 ```bash
 flutter run
@@ -122,7 +134,7 @@ flutter run
 
 ---
 
-## 📋 Requirements
+# 📋 Requirements
 
 - Flutter 3.44+
 - Dart 3.12+
@@ -131,19 +143,18 @@ flutter run
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
-- 🤖 AI Hotel Recommendation
-- 💳 Online Payment Gateway
-- 💬 Hotel Chat Support
-- 🔔 Push Notifications
-- 👨‍👩‍👧 Family Live Tracking
-- 📷 QR Check-in
-- 🗺️ Offline Maps
+- AI Hotel Recommendation
+- Online Payment Gateway
+- Push Notifications
+- Hotel Wishlist
+- Dark Mode
+- QR Check-in
 
 ---
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
 **Amit Singh Bhandari**
 
@@ -152,6 +163,6 @@ flutter run
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is developed for **learning, portfolio, and demonstration purposes**.
+This project is developed for learning, portfolio, and demonstration purposes.
