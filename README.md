@@ -1,53 +1,53 @@
-# WalkinBuddy
+# 🏨 WalkinBuddy
 
-WalkinBuddy is a Flutter-based Smart Hospitality and Safety application designed to help users discover hotels, book stays, access emergency SOS services, and navigate nearby locations using Google Maps.
+**WalkinBuddy** is a Flutter-based Smart Hospitality & Safety application designed to help users discover hotels, book stays, access emergency SOS services, and navigate nearby locations using Google Maps.
 
 ---
 
-## Features
+## ✨ Features
 
-- Firebase Authentication
+- 🔐 Firebase Authentication
   - Login
   - Signup
   - Forgot Password
 
-- Hotel Browsing
+- 🏨 Hotel Browsing
   - Featured Hotels
   - Hotel Details
   - Search Hotels
 
-- Booking System
+- 📅 Hotel Booking
 
-- Google Maps Integration
+- 🗺️ Google Maps Integration
 
-- Live Location
+- 📍 Live Location Tracking
 
-- SOS Emergency Feature
+- 🚨 SOS Emergency Feature
 
-- User Profile
+- 👤 User Profile
 
-- Reviews & Ratings
+- ⭐ Reviews & Ratings
 
-- Responsive UI
+- 📱 Responsive Material 3 UI
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - Flutter
 - Dart
 - Firebase Authentication
 - Cloud Firestore
 - Firebase Storage
-- Google Maps
+- Google Maps Flutter
 - Geolocator
 - Provider
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
-```
+```text
 lib/
 │
 ├── core/
@@ -56,9 +56,9 @@ lib/
 │
 ├── features/
 │   ├── auth/
+│   ├── booking/
 │   ├── home/
 │   ├── hotel/
-│   ├── booking/
 │   ├── maps/
 │   ├── payment/
 │   ├── profile/
@@ -71,7 +71,7 @@ lib/
 
 ---
 
-## Screens
+## 📱 Screens
 
 - Splash Screen
 - Login
@@ -79,7 +79,7 @@ lib/
 - Home
 - Hotel Details
 - Booking
-- Maps
+- Google Maps
 - Payment
 - Profile
 - Reviews
@@ -88,27 +88,33 @@ lib/
 
 ---
 
-## Getting Started
+## 📸 Screenshots
 
-Clone the repository
+> Screenshots will be added soon.
+
+---
+
+## 🚀 Getting Started
+
+### Clone Repository
 
 ```bash
 git clone https://github.com/AmitS-22/WalkinBuddy.git
 ```
 
-Move into the project
+### Go to Project Folder
 
 ```bash
 cd WalkinBuddy
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 flutter pub get
 ```
 
-Run the project
+### Run the Project
 
 ```bash
 flutter run
@@ -116,7 +122,7 @@ flutter run
 
 ---
 
-## Requirements
+## 📋 Requirements
 
 - Flutter 3.44+
 - Dart 3.12+
@@ -125,30 +131,27 @@ flutter run
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
-- AI Hotel Recommendation
-- Online Payments
-- Hotel Chat Support
-- Push Notifications
-- Family Live Tracking
-- QR Check-in
-- Offline Maps
+- 🤖 AI Hotel Recommendation
+- 💳 Online Payment Gateway
+- 💬 Hotel Chat Support
+- 🔔 Push Notifications
+- 👨‍👩‍👧 Family Live Tracking
+- 📷 QR Check-in
+- 🗺️ Offline Maps
 
 ---
 
-## Developer
+## 👨‍💻 Developer
 
 **Amit Singh Bhandari**
 
-GitHub:
-https://github.com/AmitS-22
-
-LinkedIn:
-https://www.linkedin.com/in/amit-singh-bhandari-5ba207303/
+- GitHub: https://github.com/AmitS-22
+- LinkedIn: https://www.linkedin.com/in/amit-singh-bhandari-5ba207303/
 
 ---
 
-## License
+## 📄 License
 
-This project is created for learning and portfolio purposes.
+This project is developed for **learning, portfolio, and demonstration purposes**.
