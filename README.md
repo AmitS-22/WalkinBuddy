@@ -1,50 +1,154 @@
-# Welcome to your Expo app 👋
+# WalkinBuddy
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+WalkinBuddy is a Flutter-based Smart Hospitality and Safety application designed to help users discover hotels, book stays, access emergency SOS services, and navigate nearby locations using Google Maps.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- Firebase Authentication
+  - Login
+  - Signup
+  - Forgot Password
 
-2. Start the app
+- Hotel Browsing
+  - Featured Hotels
+  - Hotel Details
+  - Search Hotels
 
-   ```bash
-   npx expo start
-   ```
+- Booking System
 
-In the output, you'll find options to open the app in a
+- Google Maps Integration
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Live Location
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- SOS Emergency Feature
 
-## Get a fresh project
+- User Profile
 
-When you're ready, run:
+- Reviews & Ratings
 
-```bash
-npm run reset-project
+- Responsive UI
+
+---
+
+## Tech Stack
+
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
+- Google Maps
+- Geolocator
+- Provider
+
+---
+
+## Project Structure
+
+```
+lib/
+│
+├── core/
+│   ├── theme/
+│   └── utils/
+│
+├── features/
+│   ├── auth/
+│   ├── home/
+│   ├── hotel/
+│   ├── booking/
+│   ├── maps/
+│   ├── payment/
+│   ├── profile/
+│   ├── review/
+│   ├── settings/
+│   └── sos/
+│
+└── main.dart
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Screens
 
-To learn more about developing your project with Expo, look at the following resources:
+- Splash Screen
+- Login
+- Signup
+- Home
+- Hotel Details
+- Booking
+- Maps
+- Payment
+- Profile
+- Reviews
+- Settings
+- SOS
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## Getting Started
 
-Join our community of developers creating universal apps.
+Clone the repository
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+git clone https://github.com/AmitS-22/WalkinBuddy.git
+```
+
+Move into the project
+
+```bash
+cd WalkinBuddy
+```
+
+Install dependencies
+
+```bash
+flutter pub get
+```
+
+Run the project
+
+```bash
+flutter run
+```
+
+---
+
+## Requirements
+
+- Flutter 3.44+
+- Dart 3.12+
+- Android Studio / VS Code
+- Firebase Project
+
+---
+
+## Future Improvements
+
+- AI Hotel Recommendation
+- Online Payments
+- Hotel Chat Support
+- Push Notifications
+- Family Live Tracking
+- QR Check-in
+- Offline Maps
+
+---
+
+## Developer
+
+**Amit Singh Bhandari**
+
+GitHub:
+https://github.com/AmitS-22
+
+LinkedIn:
+https://www.linkedin.com/in/amit-singh-bhandari-5ba207303/
+
+---
+
+## License
+
+This project is created for learning and portfolio purposes.
