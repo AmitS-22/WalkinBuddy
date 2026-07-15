@@ -1,0 +1,72 @@
+name: walkinbuddy
+description: "WalkinBuddy - Smart Hospitality & Safety App"
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.5
+
+  # Navigation
+  go_router: ^16.0.0
+
+  # Local Storage
+  shared_preferences: ^2.5.3
+
+  # Network
+  http: ^1.5.0
+
+  # Animations
+  flutter_animate: ^4.5.2
+
+  # Google Maps
+  google_maps_flutter: ^2.17.1
+
+  # Location
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+
+  # Firebase
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.6.2
+  cloud_firestore: ^5.6.11
+  firebase_storage: ^12.4.9
+  firebase_messaging: ^15.2.9
+
+  # Images
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.1.1
+  photo_view: ^0.15.0
+
+  # UI
+  shimmer: ^3.0.0
+  flutter_svg: ^2.2.1
+  lottie: ^3.3.2
+
+  # Actions
+  url_launcher: ^6.3.2
+  share_plus: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "58347477505",
+    "project_id": "walking-buddy-bf642",
+    "storage_bucket": "walking-buddy-bf642.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58347477505:android:bdc0d24cbbef1bc8c9fe00",
+        "android_client_info": {
+          "package_name": "com.example.walkinbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA29MsGWMhR413UPKbSsDxzQ_4Mhxwtde0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
