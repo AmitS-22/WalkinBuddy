@@ -102,7 +102,45 @@ lib/
 
 # 📸 Screenshots
 
-> Screenshots will be added soon.
+# 📱 Screens
+
+- Splash Screen
+- Login
+- Signup
+- Home
+- Hotel Details
+- Booking
+- Payment
+- Reviews
+- Profile
+- Settings
+- SOS
+
+---
+
+# 📸 Screenshots
+
+| Login                                                       | Home                                                       |
+| ----------------------------------------------------------- | ---------------------------------------------------------- |
+| <img src="assets/images/screenshots/login.png" width="250"> | <img src="assets/images/screenshots/home.png" width="250"> |
+
+| Hotel Details                                                       | Booking                                                       |
+| ------------------------------------------------------------------- | ------------------------------------------------------------- |
+| <img src="assets/images/screenshots/hotel_details.png" width="250"> | <img src="assets/images/screenshots/booking.png" width="250"> |
+
+| Profile                                                       | SOS                                                       |
+| ------------------------------------------------------------- | --------------------------------------------------------- |
+| <img src="assets/images/screenshots/profile.png" width="250"> | <img src="assets/images/screenshots/sos.png" width="250"> |
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/AmitS-22/WalkinBuddy.git
+```
 
 ---
 
